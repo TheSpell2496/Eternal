@@ -1,0 +1,40 @@
+0(ID)0(TYPE),name,callname1,callname2,callname3,callname4,callname5,callname6,callname7,"TYPE1: TOOL: strength, material it breaks, durability, (OPTIONAL) possible TRANSITIONS",BLOCK,BLOCK
+10,red key,key,red key,,,,,,,,
+20,redder key,key,red key,redder key,,,,,,,
+30,reddest key,key,red key,reddest key,,,,,,,
+40,really cool wig,wig,cool wig,really cool wig,crazy good wig,really good wig,,,,,
+50,fir wood log,wood,log,wood log,log of wood,fir wood,log of fir wood,fir wood log,,,
+60,stone,rock,stone,pebble,,,,,,,
+70,fir wood plank,wood,wood plank,plank,fir wood,fir plank,fir wood plank,,,,
+80,fir wood sticks,wood sticks,sticks,fir wood sticks,fir sticks,,,,,,
+90,oak wood log,wood,log,wood log,log of wood,oak wood,log of oak wood,oak wood log,,,
+100,maple wood log,wood,log,wood log,log of wood,maple wood,log of maple wood,maple wood log,,,
+110,oak wood plank,wood,wood plank,plank,oak wood,oak plank,oak wood plank,,,,
+120,maple wood plank,wood,wood plank,plank,maple wood,maple plank,maple wood plank,,,,
+130,oak wood sticks,wood sticks,sticks,oak wood sticks,oak sticks,,,,,,
+140,maple wood sticks,wood sticks,sticks,maple wood sticks,maple sticks,,,,,,
+150,iron ore,iron,iron ore,,,,,,,,
+160,gold ore,gold,gold ore,,,,,,,,
+170,coal,coal,coal ore,,,,,,,,
+180,steel,steel,,,,,,,,,
+190,copper ore,copper,copper ore,,,,,,,,
+200,topaz,topaz,yellow gem,gemstone,gem,,,,,,
+210,steel handle,handle,steel handle,,,,,,,,
+220,ruby,ruby,red gem,gemstone,gem,,,,,,
+230,iron bar,iron,iron bar,refined iron,,,,,,,
+240,gold bar,gold,gold bar,refined gold,,,,,,,
+250,copper bar,copper,copper bar,refined copper,,,,,,,
+260,plant fiber,fiber,plant,plant matter,,,,,,,
+270,cake,cake,lie,,,,,,,,
+11,wood axe,axe,wood axe,,,,,,5,WOOD,15
+21,wood pickaxe,pickaxe,wood pickaxe,,,,,,8,ORE,15
+31,stone pickaxe,pickaxe,stone pickaxe,,,,,,13,ORE,25
+41,stone axe,axe,stone axe,,,,,,10,WOOD,25
+51,iron axe,axe,iron axe,,,,,,15,WOOD,35
+61,iron pickaxe,pickaxe,iron pickaxe,,,,,,15,ORE,35
+71,steel pickaxe,pickaxe,steel pickaxe,,,,,,18,ORE,50
+81,steel axe,axe,steel axe,,,,,,20,WOOD,50
+91,ruby axe,axe,ruby axe,,,,,,25,WOOD,65
+101,ruby pickaxe,pickaxe,ruby pickaxe,,,,,,20,ORE,65
+111,steel sledgehammer,hammer,steel hammer,sledgehammer,steel sledgehammer,,,,30,STRUCTURE,50
+121,ELECTROHAMMER,hammer,electrohammer,electric hammer,,,,,50,FORCEFIELD,50

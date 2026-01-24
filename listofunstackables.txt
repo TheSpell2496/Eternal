@@ -1,0 +1,4 @@
+a list of unstackable item species by ID, if you want to make an unstackable
+item list the speciesID (the number at the end of the itemID) of the item 
+like so: speciesID1,speciesID2,speciesID3, ect... on the line below
+1
