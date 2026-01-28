@@ -9,7 +9,7 @@ public class Tool extends Item { //NOT IMMUTABLE, DURABILITY
 	private int strength, durability;
 	private String breakableMaterial;
 	private ArrayList<int[]> transitions = new ArrayList<int[]>(); //in this case, a transition is the conversion of one tile to another that this tool can cause
-	public static final CSVItemReader itemReader = new CSVItemReader("ItemInfo.csv");
+	public static final CSVItemReader itemReader = new CSVItemReader("resources\\ItemInfo.csv");
 
 	/**
      * primary constructor

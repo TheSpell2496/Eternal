@@ -215,7 +215,7 @@ public class Player implements Cloneable {
      * @param item the item you want to check the stackability of
      */
 	public static boolean checkStackability(Item item) {
-    	File unstackableData = new File("listofunstackables.txt");
+    	File unstackableData = new File("resources\\listofunstackables.txt");
     	Scanner stackabilityReader = null;
     	try {
     		stackabilityReader = new Scanner(unstackableData);

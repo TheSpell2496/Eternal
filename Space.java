@@ -5,7 +5,7 @@
 public class Space implements Cloneable {
 
     //FINALS
-    public static final CSVTileReader tileReader = new CSVTileReader("TileInfo.csv");
+    public static final CSVTileReader tileReader = new CSVTileReader("resources\\TileInfo.csv");
 
     //VARIABLES
     private final int width,length;
@@ -44,8 +44,9 @@ public class Space implements Cloneable {
             formMap(tiles);
             break;
             case 3:
-            System.out.println("you shouldn't see this, use the secondary constructor for case 3");
+            System.out.println("do not use this constructor for rule 3 and up");
             case 4: 
+            System.out.println("do not use this constructor for rule 3 and up");
         }
     }
 

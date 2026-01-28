@@ -8,7 +8,7 @@ import java.util.ArrayList;
 public class CSVRecipeReader {
 
 	//FINALS
-    public static final CSVItemReader itemReader = new CSVItemReader("ItemInfo.csv");
+    public static final CSVItemReader itemReader = new CSVItemReader("resources\\ItemInfo.csv");
 
 	//vars
 	private String fileName;

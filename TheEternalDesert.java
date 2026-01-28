@@ -12,8 +12,8 @@ public class TheEternalDesert {
 
     public static final int GAME_RULE_COUNT = 4;
     public static final Scanner KBD = new Scanner(System.in);
-    public static final CSVTileReader tileReader = new CSVTileReader("TileInfo.csv");
-    public static final CSVItemReader itemReader = new CSVItemReader("ItemInfo.csv");
+    public static final CSVTileReader tileReader = new CSVTileReader("resources\\TileInfo.csv");
+    public static final CSVItemReader itemReader = new CSVItemReader("resources\\ItemInfo.csv");
 
     public static void main(String[] args) {
 
@@ -57,7 +57,7 @@ public class TheEternalDesert {
             	currentSpace = newWorld.getCurrentSpace();
         	    break;
             case 3:
-	            currentSpace = new Space(mapMaker("Map3Info.txt"));
+	            currentSpace = new Space(mapMaker("resources\\Map3Info.txt"));
     	        width = currentSpace.getTiles().length;
         	    length = currentSpace.getTiles()[0].length;
     	        spaceWrapper[0][0] = currentSpace;
@@ -67,9 +67,9 @@ public class TheEternalDesert {
             case 4:
 	            //System.out.print("what do you want the seed of your world to be? ");
     	        //seed = KBD.nextInt();
-            	Space spawnSpace = new Space(mapMaker("demoPrebuiltMaps\\SpawnSpace.txt"));
-				Space alterSpace = new Space(mapMaker("demoPrebuiltMaps\\AlterRoom.txt"));
-				Space partySpace = new Space(mapMaker("demoPrebuiltMaps\\PartyRoom!.txt"));
+            	Space spawnSpace = new Space(mapMaker("resources\\demoPrebuiltMaps\\SpawnSpace.txt"));
+				Space alterSpace = new Space(mapMaker("resources\\demoPrebuiltMaps\\AlterRoom.txt"));
+				Space partySpace = new Space(mapMaker("resources\\demoPrebuiltMaps\\PartyRoom!.txt"));
 				Space[][] builtSpaces = {{partySpace, alterSpace, spawnSpace}};
         	    newWorld = new World(builtSpaces, survivalPlayer);
         	    newWorld.addToInventory(itemReader.readItem(11));

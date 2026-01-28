@@ -5,7 +5,7 @@ import java.util.ArrayList;
 public class Tile {
 
     //FINALS
-    public static final CSVItemReader itemReader = new CSVItemReader("ItemInfo.csv");
+    public static final CSVItemReader itemReader = new CSVItemReader("resources\\ItemInfo.csv");
 
     //VARIABLES
     private int tileID;

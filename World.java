@@ -8,7 +8,7 @@ import java.util.HashMap;
 public class World {
 
 	//finals
-	public static final CSVTileReader tileReader = new CSVTileReader("TileInfo.csv");
+	public static final CSVTileReader tileReader = new CSVTileReader("resources\\TileInfo.csv");
 	public final int GRASS_TILE_CHANCE = 70; //grass tile chance is the total probability it'll be a grass tile
 	public final int COMMON_TILE_CHANCE = 75; //the rest are the probability IF A GRASS TILE IS NOT CHOSEN, then this is the chance
 	public final int MEDIUM_RARE_TILE_CHANCE = 20; //so these bottom 3 have to all add up to 100
